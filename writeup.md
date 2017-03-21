@@ -42,6 +42,8 @@ The pipeline I use does the following:
 
 The draw_lines function was modified to calculate average slope and make a line that would connect the furthest top point of a confirmed 'line' down to the origin using the average slope of all lines found.
 
+I attempted to modify pipe line to deal with Challenge video, however changes I made to compensate for it made the base videos unreliable in processing. 
+
 ####Example from pipe line
 
 ![alt text][image2]
@@ -64,3 +66,4 @@ The draw_lines function was modified to calculate average slope and make a line 
 1. A better method of averaging the points in the line would make the jitter more managable
 2. Rework line making algorithm to compensate for curved lines.
 3. Tune settings to be more forgiving with shady areas and less drastic color changes.
+4. Hopefully with above changes, the challenge video will process as well.
